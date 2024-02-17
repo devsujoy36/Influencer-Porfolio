@@ -260,9 +260,16 @@
 
     /* nav responsive styles here  */
     .nav {
-        margin: 30px auto;
-        width: 85vw;
-        justify-content: space-between;
+        margin: 50px auto;
+    }
+
+    .nav-name {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+        padding: 5px 8px;
     }
 
     /* banner responsive styles here  */
@@ -290,7 +297,7 @@
     }
 
     /* display hide show styles here  */
-    .display-on-small-display {
+    /* .display-on-small-display {
         display: flex;
         color: black;
         text-decoration: none;
@@ -299,7 +306,7 @@
 
     .hide-on-small-display {
         display: none;
-    }
+    } */
 
     /* e commerce section styles start here */
     .e-commerce {
