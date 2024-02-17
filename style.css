@@ -28,16 +28,17 @@ body {
     cursor: pointer;
     border: none;
     transition: .2s;
+    border: .5px solid transparent;
 }
 #primary-btn:hover {
-    background-color: #f0eded;
+    background-color: #ffffff;
     color: #E02C6D;
-
+    border: .5px solid black;
 }
 #primary-btn:active {
-    background-color: #E02C6D ;
-    color:#f0eded;
-    transform: scale(.6);
+    background-color: #ffffff;
+    color: #E02C6D;
+    transform: scale(.5);
 
 }
 
@@ -48,7 +49,6 @@ body {
 .nav {
     width: 80vw;
     margin: 90px auto;
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,20 +74,25 @@ body {
     border-radius: 3px;
     transition: .2s;
     cursor: pointer;
+    
+    border: .5px solid transparent;
 }
 
 .nav-menu a:active {
-    transform: scale(.8);
+    
+    background-color: #ffffff;
+    color: #E02C6D;
+    transform: scale(.5);
 }
 
 .nav-menu a:hover {
-    background-color: #e7e6e6;
+    border: .5px solid #E02C6D;
+    background-color: #ffffff;
     color: #E02C6D;
 }
 
 /* banner styles start here  */
 .banner {
-    /* border: 2px solid; */
     width: 80vw;
     margin: 50px auto 80px;
     display: flex;
