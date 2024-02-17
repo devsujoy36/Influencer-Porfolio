@@ -155,7 +155,7 @@
 
 
 /* Responsive for tablet Screen  */
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:576px) and (max-width:992px) {
 
     /* nav responsive styles here  */
     .nav {
@@ -256,57 +256,8 @@
 }
 
 /* Responsive for 1024px width Screen  */
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:993px) and (max-width:1200px) {
 
-    /* nav responsive styles here  */
-    .nav {
-        margin: 50px auto;
-    }
-
-    .nav-name {
-        font-size: 1.5rem;
-    }
-
-    .nav-menu a {
-        font-size: 1.2rem;
-        padding: 5px 8px;
-    }
-
-    /* display hide show styles here  */
-    .display-on-small-display {
-        display: flex;
-        color: black;
-        text-decoration: none;
-
-    }
-
-    .hide-on-small-display {
-        display: none;
-    }
-
-    /* banner responsive styles here  */
-    .banner {
-        margin: 100px auto;
-    }
-
-    .banner-right {
-        margin-top: 0px;
-        width: 100%;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .banner-right img {
-        width: 400px;
-    }
-
-    .banner-title {
-        margin-top: 0;
-        font-size: 2rem;
-        color: #3A3A3A;
-    }
-
+   
    
 }
