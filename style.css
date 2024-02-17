@@ -27,12 +27,20 @@ body {
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    transition: .2s;
 }
-
 #primary-btn:hover {
     background-color: #f0eded;
     color: #E02C6D;
+
 }
+#primary-btn:active {
+    background-color: #E02C6D ;
+    color:#f0eded;
+    transform: scale(.6);
+
+}
+
 
 /* header er nav and banner styles start here */
 
@@ -69,7 +77,6 @@ body {
 }
 
 .nav-menu a:active {
-
     transform: scale(.8);
 }
 
