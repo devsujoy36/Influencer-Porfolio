@@ -201,6 +201,20 @@ body {
     color: gray;
     font-size: 15px;
 }
+.grid-item-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.grid-item-btn{
+    font-size: 1.4rem;
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    
+}
 
 
 /* featured section styles here  */
