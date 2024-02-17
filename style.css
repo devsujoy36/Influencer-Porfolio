@@ -98,7 +98,7 @@ header {
 .banner-right {
     height: 600px;
     /* border: 2px solid black; */
-    background-image: url(images/Circle\ design.svg);
+    /* background-image: url(images/Circle\ design.svg); */
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -111,16 +111,23 @@ header {
 
 
 /* main styles start here */
-
-
-
-
-
-
+#main-section{
+    width: 80vw;
+    margin: 0 auto;
+}
 
 
 /* section styles start here */
-
+.e-commerce{
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
 
 
 
