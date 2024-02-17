@@ -154,11 +154,15 @@
 @media screen and (min-width:576px) and (max-width:992px) {
 
     /* nav responsive styles here  */
-    .nav {
-        margin: 30px auto;
-        width: 85vw;
-        justify-content: space-between;
+    .nav-name {
+        font-size: 1.8rem;
     }
+
+    .nav-menu a {
+        font-size: 1.1rem;
+        padding: 0px 10px;
+    }
+
 
     /* banner responsive styles here  */
     .banner {
@@ -185,7 +189,7 @@
     }
 
     /* display hide show styles here  */
-    .display-on-small-display {
+    /* .display-on-small-display {
         display: flex;
         color: black;
         text-decoration: none;
@@ -194,7 +198,7 @@
 
     .hide-on-small-display {
         display: none;
-    }
+    } */
 
     /* e commerce section styles start here */
     .e-commerce {
