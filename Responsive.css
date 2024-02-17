@@ -7,7 +7,8 @@
         width: 90vw;
         justify-content: space-between;
     }
-    .nav-name{
+
+    .nav-name {
         font-size: 1.5rem;
     }
 
@@ -59,13 +60,50 @@
     }
 
     /* Popular COllection section styles */
-
-
     .grid-section {
         margin: 0 auto;
         grid-template-columns: 1fr;
         gap: 40px;
     }
+
+    /* featured section styles here  */
+
+    .featured-product {
+        flex-direction: column-reverse;
+        margin: 100px auto;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .featured-left {
+        width: 100%;
+    }
+
+    .featured-img-container img {
+        width: 100%;
+    }
+
+
+    .featured-right {
+        width: 100%;
+
+    }
+
+    .featured-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .featured-title {
+        font-size: 1.8rem;
+    }
+
+    .featured-description {
+        color: #686565;
+        font-size: 1.1rem;
+    }
+
+
 
 }
 
@@ -131,5 +169,41 @@
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
+
+
+    /* featured section styles here  */
+
+    .featured-product {
+        margin: 100px auto;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .featured-left {
+        width: 50%;
+    }
+
+    .featured-img-container img {
+        width: 100%;
+    }
+
+
+    .featured-right {
+        width: 50%;
+    }
+
+    .featured-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .featured-title {
+        font-size: 1.5rem;
+    }
+
+    .featured-description {
+        font-size: .8rem;
+    }
+
 
 }
