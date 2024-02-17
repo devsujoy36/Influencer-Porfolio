@@ -150,10 +150,6 @@
 
 
 
-
-
-
-
 /* Responsive for tablet Screen  */
 @media screen and (min-width:576px) and (max-width:992px) {
 
@@ -258,6 +254,33 @@
 /* Responsive for 1024px width Screen  */
 @media screen and (min-width:993px) and (max-width:1200px) {
 
-   
-   
+    /* nav styles start here */
+
+    .nav-name {
+        font-size: 1.8rem;
+    }
+
+    .nav-menu a {
+        font-size: 1.1rem;
+        padding: 0px 10px;
+    }
+
+    /* banner styles start here  */
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-description {
+        font-size: 1.4rem;
+    }
+
+    .banner-right {
+        height: 500px;
+    }
+
+    .banner-right img {
+        width: 500px;
+    }
+
+
 }
