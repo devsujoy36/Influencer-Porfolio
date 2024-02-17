@@ -24,8 +24,13 @@ body {
     color: white;
     margin-top: 30px;
     padding: 10px 15px;
-    border-radius: 18px;
+    border-radius: 10px;
     cursor: pointer;
+    border: none;
+}
+.primary-btn:hover{
+    background-color: #f0eded;
+    color: #E02C6D;
 }
 
 /* header er nav and banner styles start here */
@@ -209,15 +214,36 @@ header {
     gap: 60px;
 }
 
-.featured-left {}
+.featured-left {
+    overflow: hidden;
+    width: 35%;
+    border-radius: 10px;
+}
 
 .featured-img-container {}
 
-.featured-right {}
+.featured-img-container img {
+    width: 100%;
+    transition: .3s;
+}
 
-.featured-title {}
+.featured-img-container img:hover {
+    border-radius: 10px;
+    transform: scale(1.5);
+}
 
-.featured-description {}
+.featured-right {
+    width: 50%;
+}
+
+.featured-title {
+    font-size: 2rem;
+}
+
+.featured-description {
+    color: #3A3A3A;
+    font-weight: normal;
+}
 
 
 /* footer styles start here */
