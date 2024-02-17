@@ -64,6 +64,7 @@ body {
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 6px;
+    transition: .3s;
 }
 
 .nav-menu a:hover {
