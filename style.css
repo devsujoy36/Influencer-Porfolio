@@ -18,6 +18,14 @@ body {
 .primary-btn {
     display: flex;
     align-items: center;
+    font-size: 1.005rem;
+    font-weight: 600;
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    cursor: pointer;
 }
 
 /* header er nav and banner styles start here */
@@ -188,4 +196,13 @@ header {
     font-size: 15px;
 }
 
+
+/* featured section styles here  */
+.featured-product{
+    display: flex;
+    margin: 50px 50px ;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
 /* footer styles start here */
