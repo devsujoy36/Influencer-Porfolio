@@ -272,6 +272,18 @@
         padding: 5px 8px;
     }
 
+    /* display hide show styles here  */
+    .display-on-small-display {
+        display: flex;
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .hide-on-small-display {
+        display: none;
+    }
+
     /* banner responsive styles here  */
     .banner {
         margin: 100px auto;
@@ -296,57 +308,5 @@
         color: #3A3A3A;
     }
 
-    /* e commerce section styles start here */
-    .e-commerce {
-        margin: 30px auto;
-        padding: 10px auto;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    /* Popular COllection section styles */
-
-
-    .grid-section {
-        margin: 0 auto;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-
-
-    /* featured section styles here  */
-
-    .featured-product {
-        margin: 100px auto;
-        gap: 60px;
-        text-align: center;
-    }
-
-    .featured-left {
-        width: 50%;
-    }
-
-    .featured-img-container img {
-        width: 100%;
-    }
-
-
-    .featured-right {
-        width: 50%;
-    }
-
-    .featured-button {
-        display: flex;
-        justify-content: center;
-    }
-
-    .featured-title {
-        font-size: 1.5rem;
-    }
-
-    .featured-description {
-        font-size: .8rem;
-    }
-
-
+   
 }
