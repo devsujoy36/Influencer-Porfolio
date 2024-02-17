@@ -1,0 +1,43 @@
+/* Responsive for mobile phones screen */
+@media screen and (max-width:576px) {
+    .nav {
+        width: 90vw;
+        justify-content: space-between;
+    }
+
+    .display-on-small-display {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        
+    }
+
+    .hide-on-small-display {
+        display: none;
+    }
+
+
+    
+}
+
+/* Responsive for tabel Screen  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav {
+        width: 90vw;
+        justify-content: space-between;
+    }
+    
+    .display-on-small-display {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        
+    }
+
+    .hide-on-small-display {
+        display: none;
+    }
+
+
+
+}

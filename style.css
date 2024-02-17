@@ -9,26 +9,35 @@ body {
     font-weight: 700;
 }
 
-.hide {
+.display-on-small-display {
     display: none;
 }
 
-/* header styles start here */
+/* header er nav and banner styles start here */
+
+header {
+    margin: 0;
+    width: 100vw;
+    background-color: red;
+    
+}
+
 /* nav styles start here */
 .nav {
     width: 80vw;
-    margin: 40px auto;
-
+    margin: 0 auto;
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-name {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .nav-menu {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,9 +57,34 @@ body {
     background-color: palevioletred;
 }
 
+/* banner styles start here  */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.banner-left {
+    border: 2px solid black;
+    padding-right: 00px;
+}
 
+.banner-title {
+    font-size: 2.8rem;
+}
 
+.banner-description {}
+
+.banner-btn {}
+
+.banner-right {
+    border: 2px solid black;
+    background-image: url(images/Circle\ design.svg);
+    background-position: center center;
+}
+
+.banner-right img {}
 
 
 
@@ -71,6 +105,3 @@ body {
 
 
 /* footer styles start here */
-
-
-
