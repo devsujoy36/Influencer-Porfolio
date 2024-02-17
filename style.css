@@ -35,11 +35,6 @@ body {
 
 /* header er nav and banner styles start here */
 
-header {
-    /* background-color: red; */
-
-}
-
 /* nav styles start here */
 .nav {
     width: 80vw;
@@ -137,7 +132,6 @@ header {
 }
 
 /* Popular COllection section styles */
-.popular-collection {}
 
 .popular-collection-title {
     text-align: center;
@@ -222,7 +216,6 @@ header {
     border-radius: 10px;
 }
 
-.featured-img-container {}
 
 .featured-img-container img {
     width: 100%;
