@@ -16,17 +16,15 @@ body {
 /* header er nav and banner styles start here */
 
 header {
-    margin: 0;
-    width: 100vw;
-    background-color: red;
-    
+    /* background-color: red; */
+
 }
 
 /* nav styles start here */
 .nav {
     width: 80vw;
-    margin: 0 auto;
-    background-color: aqua;
+    margin: 90px auto;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +35,7 @@ header {
 }
 
 .nav-menu {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +43,8 @@ header {
 }
 
 .nav-menu a {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: black;
     text-decoration: none;
     padding: 5px 10px;
@@ -59,10 +58,13 @@ header {
 
 /* banner styles start here  */
 .banner {
+    border: 2px solid;
+    width: 80vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+
 }
 
 .banner-left {
@@ -71,20 +73,37 @@ header {
 }
 
 .banner-title {
-    font-size: 2.8rem;
+    font-size: 4rem;
+    color: #3A3A3A;
 }
 
-.banner-description {}
+.banner-description {
+    color: #3A3A3A;
+}
 
-.banner-btn {}
+.banner-btn {
+    font-size: 1.005rem;
+    font-weight: 600;
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
+    border-radius: 18px;
+}
 
 .banner-right {
+    height: 600px;
     border: 2px solid black;
     background-image: url(images/Circle\ design.svg);
     background-position: center center;
+
+    background-repeat: no-repeat;
 }
 
-.banner-right img {}
+.banner-right img {
+    width: 550px;
+    box-sizing: border-box;
+}
 
 
 
