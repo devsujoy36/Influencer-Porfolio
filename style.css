@@ -65,15 +65,17 @@ body {
     padding: 5px 15px;
     border-radius: 3px;
     transition: .2s;
+    cursor: pointer;
 }
 
 .nav-menu a:active {
-    background-color: #ffffff;
-    color: #E02C6D;
+
     transform: scale(.8);
 }
+
 .nav-menu a:hover {
-    
+    background-color: #e7e6e6;
+    color: #E02C6D;
 }
 
 /* banner styles start here  */
@@ -228,6 +230,7 @@ body {
     color: #E02C6D;
     transform: scale(.5);
 }
+
 .grid-item-btn:hover {
     background-color: #ffffff;
     color: #E02C6D;
