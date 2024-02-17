@@ -30,11 +30,13 @@ body {
     transition: .2s;
     border: .5px solid transparent;
 }
+
 #primary-btn:hover {
     background-color: #ffffff;
     color: #E02C6D;
     border: .5px solid black;
 }
+
 #primary-btn:active {
     background-color: #ffffff;
     color: #E02C6D;
@@ -74,12 +76,12 @@ body {
     border-radius: 3px;
     transition: .2s;
     cursor: pointer;
-    
+
     border: .5px solid transparent;
 }
 
 .nav-menu a:active {
-    
+
     background-color: #ffffff;
     color: #E02C6D;
     transform: scale(.5);
@@ -288,6 +290,40 @@ body {
     font-size: 1.4rem;
     margin-top: 10px;
 }
+
+.featured-button-container{
+    border: 1px solid;
+    width: 200px;
+}
+.join-now-btn  {
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 9, 9);
+    transition: all .3s;
+}
+
+.join-now-btn:hover {
+    background-color: #ffffff;
+    color: #E02C6D;
+    border: .5px solid black;
+}
+
+.join-now-btn:active {
+    background-color: #ffffff;
+    color: #E02C6D;
+    transform: scale(.5);
+
+}
+
+
 
 
 /* footer styles start here */
